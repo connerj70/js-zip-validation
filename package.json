@@ -1,0 +1,22 @@
+{
+  "name": "zip-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "qunit": "^2.9.3"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "atob": "^2.1.2",
+    "filereader": "^0.10.3",
+    "jszip": "^3.2.2",
+    "node-fetch": "^2.6.0"
+  }
+}
