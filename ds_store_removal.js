@@ -11,7 +11,6 @@ module.exports = {
             //Turn the zip blob into an actual zip archive
             var newZip = new jSZip();
             newZip.loadAsync(zipArchiveBlob).then(function(zip) {
-                let zipWithoutDSStoreAndMacOSX = new jSZip();
                 //Loop through every file in the zip archive
                 for (var name in zip.files) {
                     var indexOfLastPeriod = name.lastIndexOf(".");
