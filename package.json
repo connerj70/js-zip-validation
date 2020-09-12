@@ -17,6 +17,6 @@
     "atob": "^2.1.2",
     "filereader": "^0.10.3",
     "jszip": "^3.2.2",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
